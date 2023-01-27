@@ -11,5 +11,8 @@ test example run:
 >tag1 C1
 >tag2 c10
 ## tags for replace in docx's text
-[[\_yourtagnamehere\_]]
+tag example:
+>[[\_yourtagnamehere\_]]
+
+in text:
 >texttexttext[[\_tag1\_]]text
