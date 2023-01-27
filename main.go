@@ -8,8 +8,8 @@ import (
 
 	"github.com/nguyenthenguyen/docx"
 	"github.com/okonma-violet/confdecoder"
+	"github.com/okonma-violet/logs/encode"
 	"github.com/okonma-violet/logs/logger"
-	"github.com/okonma-violet/spec/logs/encode"
 	"github.com/tealeg/xlsx"
 )
 
