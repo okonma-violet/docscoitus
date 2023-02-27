@@ -1,3 +1,0 @@
-sheet 1
-tag1 C1
-tag2 c10
