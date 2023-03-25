@@ -113,6 +113,7 @@ func main() {
 
 	if err = dx.WriteToFile(args[1]); err != nil {
 		println("Writing result file err: " + err.Error())
+	} else {
+		println("Done! Result written to " + args[1])
 	}
-	println("Done! Result written to " + args[1])
 }
