@@ -22,12 +22,6 @@ const (
 	tagclose = "_]]"
 )
 
-type replaceData struct {
-	tag string
-
-	value string
-}
-
 func main() {
 	args := os.Args[1:]
 	if len(args) < 4 || args[0] == "--help" {
