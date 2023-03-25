@@ -48,9 +48,7 @@ func main() {
 	}
 
 	dx := df.Editable()
-	println("AAA", len(args)-1, len(args)-1 < 3)
 	for k := len(args) - 1; k > 1; k -= 2 {
-		println("BBB", k)
 		xf, err := xlsx.OpenFile(args[k])
 		if err != nil {
 			println("Reading xlsx file err: " + err.Error())
